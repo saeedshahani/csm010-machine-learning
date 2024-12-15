@@ -1,0 +1,10 @@
+Algorithm,Features,PCA,Test_Size,CV,Accuracy,Best_Params,Report
+XGBoost,7,5,0.2,5,0.8524489482573315,"{'colsample_bytree': 0.8, 'learning_rate': 0.3, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 1.0}","              precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      4942
+           1       0.73      0.61      0.67      1571
+
+    accuracy                           0.85      6513
+   macro avg       0.81      0.77      0.79      6513
+weighted avg       0.85      0.85      0.85      6513
+"
